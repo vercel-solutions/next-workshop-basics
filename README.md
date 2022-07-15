@@ -1,21 +1,13 @@
-# Next.js workshop
-Estamos haciendo una aplicación para la ciudad de Mar del Plata, Buenos Aires, Argentina. Nos dieron estas especificaciones:
+# Next.js workshop - Basics
+During this workshop we will learn Next.js basics, including:
 
-* Tenemos que mostrar en una lista todos los locales y tiendas destacadas de la ciudad.
-* Cada tienda debe tener su página dedicada.
-* En la página de detalle debemos mostrar un mapa, una foto y los datos de la tienda.
+* Routing, creating static and dynamic pages and navigating between them.
+* Handling global styles and layouts.
+* Data fetching using getStaticProps, getStaticPaths and getServerSideProps.
+* API Routes.
+* Pre-rendering
 
-También nos pasaron estos requerimientos técnicos:
-* Debemos usar incremental static regeneration y debemos pre-renderizar todas las tiendas en build time.
-* Debemos tener una api pública para que la gente pueda consumir la lista de tiendas y tiendas específicas.
-* Debemos tener una ruta `/hot` que nos muestre la tienda más visitada.
-
-También unos puntos extra:
-* Crear un diseño nuevo.
-* Consumir los datos de una base de datos real (Google Sheets, MongoDB, etc.).
-* Implementar la misma aplicación para la ciudad en la que vivís para ayudar a pequeños comerciantes.
-
-El cliente nos pidió que despleguemos nuestra aplicación y le demos un link para verla!
+You can head to the `excercises` branch after the workshop to practice what you learned. You can also implement this aplication from the ground to practice.
 
 ---
-Slides: https://docs.google.com/presentation/d/1dEt_8I0Urru3w09yseA64T_3b4COIh09DEKtymojryU/edit#slide=id.g1087c820d6f_0_1
+Slides: https://docs.google.com/presentation/d/13iPiZCnkq8NFh-Ofv6cAg6gFudz-7WY1DuGp3UpCddo/edit?usp=sharing

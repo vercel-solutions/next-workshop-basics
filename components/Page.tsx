@@ -30,8 +30,8 @@ const Page: React.FC<Props> = ({children}) => {
             boxShadow: "0 0 15px 0 rgb(0 0 0 / 10%)",
           }}
         >
-          <h1>Welcome to Mar del Plata!</h1>
-          <p>Encontrá los mejores locales de Mar del Plata</p>
+          <h1>Welcome to ACME Stores!</h1>
+          <p>Find all the ACME Stores around</p>
         </div>
         <div
           style={{

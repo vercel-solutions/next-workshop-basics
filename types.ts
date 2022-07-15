@@ -5,8 +5,5 @@ export interface Store {
   description: string;
   location: {
     address: string;
-    map: string;
-    lat: number;
-    lng: number;
   };
 }
