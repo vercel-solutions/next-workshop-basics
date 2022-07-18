@@ -1,5 +1,7 @@
 import {Store} from "./types";
 
+export const MY_SUPER_SECRET_KEY = "my-super-secret-key";
+
 const MOCK = [
   {
     id: "acme-broadway",
@@ -31,12 +33,14 @@ const MOCK = [
       "https://lh5.googleusercontent.com/p/AF1QipPNwL6yRmKi-Hkc08DSbJkM0Pfd3VOzBhjR5Mnw=w203-h114-k-no",
     location: {
       address: "Leandro N. Alem 3980",
-      city: "New York"
+      city: "New York",
     },
   },
 ];
 
 const api = {
+  getSuperSecretKey: () => MY_SUPER_SECRET_KEY,
+  visitors: async () => Math.ceil(Math.random() * 100),
   list: async (): Promise<Store[]> => MOCK,
   fetch: async (id: string): Promise<Store> => {
     const store = MOCK.find((store) => store.id === id);
